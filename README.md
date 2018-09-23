@@ -1,9 +1,12 @@
-#vlight
-vlight a simple package for validation data
+# vlight
 
-##Getting Started
 
-###Installing
+simple package for validation data
+
+## Getting Started
+
+
+### Installing
 
 if you have old version do this:
 
@@ -12,19 +15,25 @@ if you have old version do this:
 and to install latest version :
 `pip install vlight`
 
-####use vlight
+
+#### use vlight
+
+
 ```python
 from vlight import v
 ```
 
 
-###examples
+### examples
+
 validate a simple login form with email :
 
 ```python
 from vlight import valid # also you can use "v" helper method
 ```
-####use vlight in django
+
+
+#### vlight in django
 
 `create validation rules and set data`
 ```python
@@ -92,7 +101,8 @@ valid = v({
 
 
  
-#####an example in django
+##### an example in django
+
 `views.py`
 ```
 from django.shortcuts import render
@@ -131,6 +141,7 @@ def index(request, **kwargs):
 ```
 
 #### supported rules
+
 `required` check data has field and data is not empty
 ```
 "required"
@@ -183,22 +194,27 @@ and you can change the rule for int value to check max integer value
 
 
 
-#####[ more validation rules will added coming soon ]
+##### [ more validation rules will added coming soon ]
 
 
 
 
 #### develop your rule
+
 `docs coming soon`
-####latest version changes
+
+#### latest version changes
+
 `0.1`
 - fix bugs
 
-#contact  
-telegram: https://t.me/Amir_s365
+# contact  
 
-gmail: amirrezasalimi0@gmail.com
+- telegram: https://t.me/Amir_s365
+- gmail: amirrezasalimi0@gmail.com
 
 
-#License
-This project is licensed under the MIT License 
+# License
+
+
+This project is licensed under the MIT License
